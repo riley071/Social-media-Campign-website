@@ -1,0 +1,321 @@
+.navbar-item {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px 10px;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .navbar-item:hover .dropdown-menu {
+    display: block;
+  }
+
+  
+/* About Section */
+.about-subtitle {
+    font-size: 3.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-right: 55px;
+  }
+  
+  /* Vision Section */
+  .vision-subtitle {
+    font-size: 3.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .vision-list {
+    list-style-type: disc;
+    margin-left: 2.5rem;
+  }
+  
+  .vision-item {
+    font-size: 2.1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Campaigns Section */
+  .campaigns-subtitle {
+    font-size: 3.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .campaigns-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .campaign-item {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .campaign-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .campaign-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .campaign-description {
+    font-size: 2.1rem;
+    line-height: 1.5;
+  }
+
+
+
+  
+.news-form {
+    margin-top: 30px;
+    text-align: center;
+    
+  }
+  
+  .news-form input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-bottom: 4px;
+  }
+  
+  .news-form button[type="submit"] {
+    padding: 10px 10px;
+    background-color: #609c80;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .news-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dashboard */
+  .dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.dashboard-profile {
+    margin-bottom: 20px;
+}
+
+.dashboard-profile h2 {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.dashboard-form-group {
+    margin-bottom: 15px;
+}
+
+.dashboard-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.dashboard-form-group input[type="text"],
+.dashboard-form-group input[type="email"],
+.dashboard-form-group button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #020202;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.dashboard-form-group button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.dashboard-form-group button:hover {
+    background-color: #45a049;
+}
+
+.dashboard-logout {
+    text-align: center;
+}
+
+.dashboard-logout a {
+    color: #020202;
+    text-decoration: none;
+}
+
+.dashboard-logout a:hover {
+    text-decoration: underline;
+}
+
+.dashboard-message {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #318f0c;
+    color: white;
+    border-radius: 4px;
+}
+
+/* login css */
+
+.login-message {
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+.login-form-container {
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.login-form-container form {
+    padding: 20px;
+    background-color: rgba(235, 235, 235, 0.904);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.login-form-container form h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #000;
+    text-transform: none;
+}
+
+.login-field {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 14px;
+    font-size: 18px;
+    color: blue;
+    margin: 10px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.login-button {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4c8b5f;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.login-button:active {
+    background-color: #004080;
+}
+
+.login-button:focus {
+    outline: none;
+}
+
+.login-form-container form p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+.login-form-container form p a {
+    color: red;
+    transition: .3s linear;
+}
+
+.login-form-container form p a:hover {
+    text-decoration: underline;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .login-form-container form {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .login-form-container form {
+        max-width: 300px;
+    }
+}
+
+
+
+.container-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .sect-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .section-info {
+    font-size: 2.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+

@@ -1,0 +1,10 @@
+Upload assignment to xamp and wamp
+
+htdocs / www
+
+open broswer 
+
+run localhost/SOCIALMEDIA/setup.php 
+
+
+then direct to index.php
